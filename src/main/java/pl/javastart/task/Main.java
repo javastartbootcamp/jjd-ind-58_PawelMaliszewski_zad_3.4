@@ -10,7 +10,7 @@ public class Main {
 
         Product product1 = new Product("Czekolada", "Mleczna Milka", 3.58, sweets);
         Product product2 = new Product("Baton", "Krzyś Orzechowy ", 2.25, sweets);
-        Product product3 = new Product("Woda", "Myszynianka Niegazowana", 3.10, drinks);
+        Product product3 = new Product("Woda", "Muszynianka Niegazowana", 3.10, drinks);
         Product product4 = new Product("Jabłko", "Janagold", 1);
 
         product1.showInfo();
@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println("------------------------------");
 
-        SpecialOffer specialOffer = new SpecialOffer(product1, "Tylko dzisiaj 20% obnizki!!!",
+        SpecialOffer specialOffer = new SpecialOffer(product1, "Tylko dzisiaj 20% obniżki!!!",
                 "w godzinach od 13 do 17 ", 0.2);
         specialOffer.specialOffer();
 

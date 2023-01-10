@@ -6,7 +6,6 @@ public class Product {
     double price;
     Category category;
 
-    @SuppressWarnings("checkstyle:EmptyLineSeparator")
     public Product(String name, String description, double price) {
         this.name = name;
         this.description = description;
